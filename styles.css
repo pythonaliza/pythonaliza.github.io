@@ -3,3 +3,15 @@ h1 {
   font-weight: bold;
   color: green;
 }
+
+@media screen and (min-width : 480px) {
+.downloadarea {
+  padding-left: 30%;
+}
+}
+
+@media screen and (max-width : 478px) {
+.downloadarea {
+  padding-left: 15px;
+}
+}
